@@ -7,33 +7,17 @@
   display: flex;
   justify-content: space-around;
 }
-.abas {
-  border: 1px;
-  border-radius: 30px;
-  padding-inline: 0.6em;
-  padding-top: 0.3em;
-  padding-bottom: 0.2em;
-  text-decoration: none;
-  color: black;
+/* .abas {
+  box-shadow: 10px 10px 200px -33px rgba(0,0,0,0.75)
+
 }
 .abaAtual {
-  background-color: #a9a9a9;
-  color: #000;
-  border: 1px;
-  border-radius: 30px;
-  padding-inline: 0.6em;
-  padding-top: 0.3em;
-  padding-bottom: 0.2em;
-}
-.abaAtual:hover {
-  background-color: #000;
-  color: #a9a9a9;
+  box-shadow: 10px 10px 88px -33px blue;
 }
 
 .abas:hover {
-  background-color: #000;
-  color: #a9a9a9;
-}
+  box-shadow: 10px 10px 88px -33px blue;
+} */
 
 /* index */
 .perfil {
@@ -55,6 +39,10 @@
 }
 
 /* contato */
+.email{
+  width: 2rem;
+  height: auto;
+}
 .inputs {
   text-align: center;
 }
