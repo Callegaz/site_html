@@ -1,0 +1,74 @@
+/* geral */
+
+.body {
+  background-color: whitesmoke;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+.abas {
+  border: 1px;
+  border-radius: 30px;
+  padding-inline: 0.6em;
+  padding-top: 0.3em;
+  padding-bottom: 0.2em;
+  text-decoration: none;
+  color: black;
+}
+.abaAtual {
+  background-color: #a9a9a9;
+  color: #000;
+  border: 1px;
+  border-radius: 30px;
+  padding-inline: 0.6em;
+  padding-top: 0.3em;
+  padding-bottom: 0.2em;
+}
+.abaAtual:hover {
+  background-color: #000;
+  color: #a9a9a9;
+}
+
+.abas:hover {
+  background-color: #000;
+  color: #a9a9a9;
+}
+
+/* index */
+.perfil {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* sobre */
+
+.imgHobbie {
+  align-self: left;
+  width: 390rem;
+  height: auto;
+}
+
+.texto{
+    margin-left: 1em;
+}
+
+/* contato */
+.inputs {
+  text-align: center;
+}
+.botao {
+  margin-top: 2em;
+  background-color: #000;
+  border: 1px;
+  color: #a9a9a9;
+  border-radius: 10px;
+  height: 2em;
+  width: 6em;
+}
+.botao:hover {
+  margin-top: 2em;
+  background-color: #a9a9a9;
+  color: #000;
+}
